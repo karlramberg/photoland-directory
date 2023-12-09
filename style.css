@@ -8,6 +8,8 @@
 }
 i, em { font-family: InterItalic;}
 
+html { scroll-behavior: smooth; }
+
 body {
 	margin: 5vh 20vw;
 	font-family: Inter, Helvetica, Arial, sans-serif;
@@ -29,8 +31,12 @@ a:hover {
 	font-family: InterItalic;
 }
 
+
+td {
+	vertical-align: top;
+	text-align: justify;
+}
+
 @media screen and (max-width: 1000px) {
-	body {
-		margin: 10px 10px 10px 10px;
-	}
+	body { margin: 1vh 2vw; }
 }
