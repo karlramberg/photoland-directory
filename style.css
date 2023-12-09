@@ -38,6 +38,10 @@ td {
 	vertical-align: top;
 }
 
+table {
+	padding-bottom: 2vw;
+}
+
 @media screen and (max-width: 1000px) {
 	body {
 		margin: 2vh 5vw;
