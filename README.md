@@ -2,4 +2,4 @@
 
 A list of companies, resources, organizations, people and other errata related to the art photography world
 
-Contact karleduardramberg@icloud.com to add or change something
+Request an addition or change: https://forms.gle/p2wtcfMUQawXqHn46
