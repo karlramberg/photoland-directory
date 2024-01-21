@@ -12,10 +12,14 @@ i, em, .meta { font-family: InterItalic;}
 html { scroll-behavior: smooth; }
 
 body {
-	margin: 5vh 20vw;
+	margin: 2vh 25vw;
 	font-family: Inter, Helvetica, Arial, sans-serif;
 	font-size: 100%;
 	line-height: 1.5;
+}
+
+p {
+	padding-bottom: 1vh;
 }
 
 a {
@@ -36,7 +40,7 @@ td {
 
 @media screen and (max-width: 1000px) {
 	body {
-		margin: 2vh 5vw;
+		margin: 1vh 5vw;
 		font-size: 80%;
 	}
 
