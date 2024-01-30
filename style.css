@@ -1,18 +1,14 @@
 @font-face {
 	font-family: Inter;
-	src: url(res/inter-variable.ttf);
+	src: url(inter.ttf);
 }
 
-@font-face {
-	font-family: InterItalic;
-	src: url(res/inter-variable-italic.ttf);
+html {
+	scroll-behavior: smooth;
 }
-i, em, .meta { font-family: InterItalic;}
-
-html { scroll-behavior: smooth; }
 
 body {
-	margin: 2vh 25vw;
+	margin: 2vh 20vw;
 	font-family: Inter, Helvetica, Arial, sans-serif;
 	font-size: 100%;
 	line-height: 1.5;
@@ -27,11 +23,13 @@ a {
 	text-decoration: none;
 }
 
-a:hover { text-decoration: underline; }
+a:hover {
+	text-decoration: underline;
+}
 
 .meta {
 	color: gray;
-	font-size: small;
+	font-size: 80%;
 }
 
 td {
@@ -40,7 +38,7 @@ td {
 
 @media screen and (max-width: 1000px) {
 	body {
-		margin: 1vh 5vw;
+		margin: 4vh 3vw;
 		font-size: 80%;
 	}
 
