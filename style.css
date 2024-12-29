@@ -8,7 +8,8 @@ html {
 }
 
 body {
-	margin: 3vh 20vw;
+	margin: 3vh auto;
+	max-width: 80ch;
 	font-family: Inter, Helvetica, Arial, sans-serif;
 	font-size: 100%;
 	line-height: 1.5;
@@ -25,14 +26,6 @@ a {
 
 a:hover {
 	text-decoration: underline;
-}
-
-h3 {
-	font-weight: 600;
-}
-
-b {
-	font-weight: 600;
 }
 
 .meta {
